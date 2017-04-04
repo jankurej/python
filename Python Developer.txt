@@ -1,0 +1,96 @@
+Python developer:
+
+https://docs.python.org/devguide/
+
+
+Codecademy - ///Variables///
+
+Creating web apps, games, and search engines all involve storing and working with different types of data. They do so using variables. A variable stores a piece of data, and gives it a specific name.
+
+spam=5
+
+The variable spam now stores the number 5.
+
+
+Codecademy - ///Booleans///
+
+Great! You just stored a number in a variable. Numbers are one data type we use in programming. A second data type is called a boolean.
+
+A boolean is like a light switch. It can only have two values. Just like a light switch can only be on or off, a boolean can only be True or False.
+
+You can use variables to store booleans like this:
+
+a = True
+b = False
+
+Set the following variables to the corresponding values:
+
+    my_int to the value 7
+    my_float to the value 1.23
+    my_bool to the value True
+
+# Set the variables to the values listed in the instructions!
+my_int=7
+my_float=1.23
+my_bool=True
+
+
+Codecademy - ///You've Been Reassigned///
+
+Now you know how to use variables to store values.
+
+Say my_int = 7. You can change the value of a variable by "reassigning" it, like this:
+
+my_int = 3
+
+Try it and see! Change the value of my_int from 7 to 3 in the editor
+
+////in the top of your python file add #!/usr/bin/python then you can rename mv myScript.py myScript and run chmod 755 myScript. This will make it so you can run the file with ./myScript look into adding the file directory
+ to your path or linking it to the path if you want to be able to run it from anywhere.////
+ 
+Install and configure Python
+
+Now, you’ll need to install the Python interpreter on your computer. This process will again be a little bit different depending on whether you have a computer that runs a Mac or the Windows operating system. Follow the appropriate set of instructions:
+
+    Windows
+    Mac
+
+Install and configure python for Windows
+
+Please download and install Python 2.7 from:
+
+https://www.python.org/downloads/release/python-278/
+
+Download and install the file Windows x86 MSI Installer (2.7.8) - when the install process asks you which directory to use - make sure to keep the default directory of C:Python27. If you are not sure if your Windows is 64-bit - install the 32-bit version of Python, the one that just says, “Windows x86 MSI Installer (2.7.8)”. If you know that you have 64-bit Windows, you can download the X86-64 MSI Installer.
+
+Note
+
+Make sure that you install the latest version of Python 2.x - do not install Python 3.x. There are signficant differences between Python 2 and Python 3 and this book/site is based on Python 2.
+
+With just this installation, you can get an interactive python interpreter where you can type code one line at a time and have it executed. You may find some options on the Windows menu for this, such as Idle. We do not recommend using these.
+
+With just this installation it is also possible to run python from the Windows command prompt. But the Windows command prompt is tricky to deal with. To establish greater consistency with the environment in which Mac users will be working and because it’s just a better command prompt, we will invoke Python using Git Bash.
+
+You have one configuration to do, to tell Git Bash where in the file system to find the Python interpreter. Follow the steps below to do that.
+
+    Launch the program Git Bash in the usual way that you launch Windows programs. A shortcut for Git Bash was created during installation.
+    At the command prompt, paste this command export PATH="$PATH:/c/Python27". That will tell Windows where to find Python. (This assumes that you installed it in C:\Python27, as we told you to above.)
+    Check to make sure that this worked correctly by entering the command python --version. It should say Python 2.7.8 (or 2.7.something), as shown in the figure below.
+    Assuming that worked correctly, you will want to set up git bash so that it always knows where to find python. To do that, enter the following command: echo 'export PATH="$PATH:/c/Python27"' > .bashrc. That will save the command into a file called .bashrc. .bashrc is executed every time git bash launches, so you won’t have to manually tell the shell where to find python again.
+    Check to make sure that worked by typing exit, relaunching git bash, and then typing python --version again.
+
+------------------------------------------------------------------
+
+If you want to run .py files in Python shell use this command as example: 
+execfile ("C:/Users/Janik/Notepad++/firstprogram.py") #Python 2.7
+exec(open(filename).read()) #Python 3
+------------------------------------------------------------------
+
+TESTING SSH IN GIT IF YOU ARE CONNECTED TO YOUR GITHUB: https://help.github.com/articles/testing-your-ssh-connection/
+
+HOW TO CLONE YOUR REPO FROM GITHUB WITH GIT TO YOUR LOCAL PC: https://help.github.com/articles/cloning-a-repository/
+
+------------------------------------------------------------------
+
+
+
