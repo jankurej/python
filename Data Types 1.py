@@ -21,4 +21,4 @@ print type ('''and even this...''')
 
 #Double quoted strings can contain single quotes inside them, as in "Bruce's beard", and single quoted strings can have double quotes inside them, as in 'The knights who say "Ni!"'. Strings enclosed with three occurrences of either quote symbol are called triple quoted strings. They can contain either single or double quotes.
 
-print '''"Oh no"''', she exclaimed, "Ben's bike is broken!"'''
+print '''"Oh no", she exclaimed, "Ben's bike is broken!"'''
