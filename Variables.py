@@ -12,7 +12,7 @@ pi = 3.14159
 
 #The assignment token, =, should not be confused with equality (we will see later that equality uses the == token). The assignment statement links a name, on the left hand side of the operator, with a value, on the right hand side. This is why you will get an error if you enter:
 
-17 = n
+#17 = n
 
 #Tip: When reading or writing code, say to yourself "n is assigned 17" or "n gets value 17" or "n is a reference to the object 17" or "n refers to the object 17". Don't say "n equals 17".
 
